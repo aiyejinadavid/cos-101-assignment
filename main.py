@@ -1,0 +1,7 @@
+print('yusuf and sons')
+principal = float(input('enter amount:'))
+time = float(input('enter time:'))
+rate = float(input('enter rate:'))
+number = float(input('enter number:'))
+simple_interest = (principal*time*rate)
+compound_interest = principal*((1+rate)/number)**(number*time)
